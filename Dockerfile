@@ -10,4 +10,4 @@ RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
 # Expose service ports.
 EXPOSE 8000
 
-ENTRYPOINT ["sh"] 
+CMD ["sh"]
